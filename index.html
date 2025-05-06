@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>You Know What I Mean</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>You Know What I Mean</h1>
+    <nav>
+      <a href="cart.html">Cart 🛒</a>
+    </nav>
+  </header>
+
+  <section class="product-grid">
+    <!-- Example Product -->
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="T-shirt" />
+      <h2>Printed Oversized T-shirt</h2>
+      <p>Color: Black | Design: Skull</p>
+      <p>Price: ₹799</p>
+      <button onclick="addToCart('Printed T-shirt', 799)">Add to Cart</button>
+      <button onclick="buyNow(799)">Buy Now</button>
+    </div>
+    <!-- Duplicate the above block for more products -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
